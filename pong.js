@@ -214,8 +214,8 @@ function draw() {
 	textSize(32);
 	fill(255);
 	text('PONG\nCLONE', width/2, height/2);
-	text(String(score_left), 20, height - 20);
-	text(String(score_right), width - 20, height - 20);
+	text(String(score_left), 30, height - 20);
+	text(String(score_right), width - 30, height - 20);
 	text(String(rally), width/2, height - 20);
 	
 	graphicsItems.run();
